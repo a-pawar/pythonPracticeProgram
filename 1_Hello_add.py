@@ -1,7 +1,5 @@
 #Python program to print hello world
-'''
-print("Hello World")
-'''
+
 print("Hello World")
 i="Hello World"
 print(i)
