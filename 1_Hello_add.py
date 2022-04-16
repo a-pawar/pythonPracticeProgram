@@ -1,45 +1,10 @@
-
-import time
-initial=time.time()
-print(initial)
-for i in range(50):
-    print("Anshul pawar: ")
-print("for loop timing: ",time.time()-initial)
-
-initial2=time.time()
-print(initial2)
-k=0
-while(k<50):
-    print("Anshul pawar: ")
-    k+=1
-print("while loop timing: ",time.time()-initial2)
-
+#Python program to print hello world
+print("Hello Wolrd")
 '''
-#timeit.timeit(stmt='pass', setup='pass', timer=<default timer>, number=1000000, globals=None)
-import timeit
-initial=timeit.timeit()
-print(initial)
-for i in range(202):
-    print("Anshul pawar: ")
-print("for loop timing: ",timeit.timeit()-initial)
-
-initial2=timeit.timeit()
-print(initial2)
-k=0
-while(k<202):
-    print("Anshul pawar: ")
-    k+=1
-print("while loop timing: ",timeit.timeit()-initial2)
-
-
-#timeit.timeit(print("Hello World!!!",2+3 ), number=10000)
-
-'''
-'''
-print("Anshul")
+print("Hello World")
 i=10
 print(i)
-a=input("Write Your name")
+a=input("Write a string Stream")
 print(a)
 '''
 '''
